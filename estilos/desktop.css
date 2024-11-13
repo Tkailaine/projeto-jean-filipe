@@ -1,0 +1,217 @@
+@charset "UTF-8";
+html, body{
+  scroll-behavior: smooth;
+}
+
+.desktop{
+  display: flex;
+  list-style-type: none;
+}
+
+.imenu{
+  display: none;
+}
+.menu-lateral{
+  display:none;
+}
+
+header > nav > .itens  a{
+  display: block;
+  font-size: 1.07em;
+  font-weight: 400;
+  color: white;
+  text-decoration: none; 
+
+}
+
+header > nav > .itens a:hover{
+  background-color:var(--cor1); 
+  color: white;
+  transition-duration: 0.3s;
+  border-radius: 10px 0px 10px 0px;
+  padding: 3px 5px;
+}
+
+header > nav > .itens{
+  display: flex;
+  align-items: center;
+  height: 30px;
+  gap: 30px;
+
+}
+
+.sobre{
+  flex-wrap: nowrap;
+}
+
+#sessao-sobre{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+
+}
+.txt{
+  display: flex;
+  flex-direction: column;
+  margin: 40px 60px 40px 0px;
+  width: 65%;
+  font-weight: 300;
+  
+}
+
+.txt > p{
+  width: 100%;
+}
+
+
+.destaques{
+  gap: 30px;
+  width: 50%;
+  margin: 50px 0px;
+
+}
+
+.layout-flex{
+  justify-content:left;
+  width: 100%;
+  margin-left: 10%;
+  
+}
+
+.txt-bandeira h1{
+  font-size: 2em;
+  top: 20%;
+}
+
+
+.typing-text { 
+  font-size: 0.6em; 
+}
+
+.epi{
+  transform: translateY(0);
+  transition: transform 0.6s ease;
+
+}
+
+.manutencao{
+  transform: translateY(0);
+  transition: transform 0.6s ease;
+}
+.epi:hover{
+  transform: translateY(-20px);
+}
+
+.manutencao:hover{
+  transform: translateY(-20px);
+}
+
+.acidentes{
+  flex-direction: row;
+  width: 1000px;
+  margin: 70px auto;
+
+}
+
+.conteudo-acidentes{
+  flex-direction: column;
+  gap: 50px;
+}
+
+.conteudo-acidentes > img{
+  margin-top: 50px;
+  width: 100%;
+  border-radius: 0px;
+  
+}
+
+.oculto{
+  display: inline;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.visivel{
+  display: none;
+}
+
+.txt-acidente{
+  gap: 30px;
+}
+
+.texto-acidentes{
+  margin: 0px 100px;
+}
+
+.texto-deslizante {
+  font-size: 1em;
+  
+}
+
+.saude{
+flex-direction: row;
+width: 1000px;
+margin: 70px auto;
+}
+
+.areas-atuacao{
+flex-direction: row;
+width: 1000px;
+margin: 70px auto;
+}
+
+.conteudo-curriculo{
+justify-content: space-around;
+align-items: center;
+}
+
+.ft-curriculo{
+width: 400px;
+box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.384);
+}
+
+.txt-curriculo{
+width: 50%;
+margin-top: 20px;
+font-size: 1.2em;
+}
+
+.txt-missao{
+width: 95%;
+text-align: center;
+}
+
+.sessao-conquistas{
+height: 200px;
+}
+
+.countainer-principal-counter{
+display: flex;
+justify-content: center;
+}
+
+.footer{
+  height: 300px;
+}
+
+.sessao-footer{
+
+  justify-content: start;
+  flex-direction: row;
+  
+}
+
+.links-uteis > li{
+  font-size: 1.3em;
+  margin: 20px 0px;
+}
+
+.sessao-footer > div{
+margin-top: 25px;
+margin-right: 60px;
+}
+
+
+
+

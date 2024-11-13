@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+.sobre > p.slideInRight {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+#sessao-sobre{
+    display: flex;
+    justify-content: center;
+    gap: 0px;
+    align-items: center;
+  
+  }
+  .txt{
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+    width: 50%;
+    font-weight: 300;
+  }
+
+
+  .destaques{
+    gap: 30px;
+    width: 50%;
+    margin: 50px 0px;
+  }
+  
+  .layout-flex{
+    justify-content:center;
+    width: 100%;
+    margin-left: 10%;
+  }
+  
+  @media (max-width: 820px) {
+  
+    .destaques{
+      width: 80%;
+  
+    }
+    .layout-flex{
+      margin-left: 0%;
+      
+    }
+  }
+  
+.acidentes{
+flex-direction: row;
+}
+
+.conteudo-acidentes > img{
+margin-top: 50px;
+width: 100%;
+border-radius: 0px;
+}
+
+.oculto{
+display: inline;
+margin-top: 40px;
+margin-bottom: 0px;
+}
+
+.visivel{
+display: none;
+}
+
+.saude{
+flex-direction: row;
+}
+
+.areas-atuacao{
+flex-direction: row;
+}
+
+.tipo-area > ul{
+  width: 65%
+}
+
+.conteudo-curriculo{
+justify-content: space-around;
+align-items: center;
+}
+
+.ft-curriculo{
+width: 310px;
+box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.384);
+}
+
+.txt-curriculo{
+width: 50%;
+margin-top: 20px;
+font-size: 1.2em;
+}
+
+
+.txt-missao{
+    width: 95%;
+    text-align: center;
+}
+.sessao-conquistas{
+    height: 200px;
+}
+
+.countainer-principal-counter{
+    display: flex;
+    justify-content: center;
+}
+
+.links-uteis > li{
+  font-size: 1.2em;
+  margin: 20px 0px;
+}
+
+
+
+
+
+

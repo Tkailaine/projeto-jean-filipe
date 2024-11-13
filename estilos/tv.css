@@ -1,0 +1,257 @@
+@charset "UTF-8";
+
+html, body{
+  scroll-behavior: smooth;
+}
+
+.desktop{
+  display: flex;
+  list-style-type: none;
+}
+
+.imenu{
+  display: none;
+}
+.menu-lateral{
+  display:none;
+}
+
+header > nav > .itens  a{
+  font-size: 1.2em;
+  font-weight: 400;
+  display: block;
+  color: white;
+  text-decoration: none; 
+}
+
+header > nav > .itens a:hover{
+  background-color:var(--cor1); 
+  color: white;
+  transition-duration: 0.3s;
+  border-radius: 10px 0px 10px 0px;
+  padding: 3px 5px;
+}
+
+header > nav > .itens{
+  display: flex;
+  align-items: center;
+  height: 30px;
+  gap: 45px;
+}
+
+.bandeira{
+  height: 700px;
+
+}
+
+.sobre{
+  height: 80%;
+}
+
+.txt{
+margin-right: 5%;
+}
+
+.txt > p{
+  width: 100%;
+}
+
+
+#sessao-sobre{
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+  align-items: center;
+
+}
+.txt{
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+
+.qualidade  p{
+  font-size: 1.2em;
+ }
+ 
+ .seguranca p{
+   font-size: 1.2em;
+ }
+ 
+ .icones{
+   display: flex;
+   gap: 0px;
+  
+ }
+ .norma{
+   width: 50px;
+   height: 50px;
+  
+ }
+ 
+ .instalacoes{
+   width: 50px;
+   height: 50px;
+  
+ }
+ 
+ .protecao{
+   width: 50px;
+   height: 50px;
+  
+ }
+ 
+ .ft-destaques{
+   width: 280px;
+   height: 350px;
+ }
+ 
+ .manutencao{  
+   left: 60%;
+ 
+ }
+ 
+ .destaques{
+   gap: 0px;
+   width: 50%;
+   margin: 20px 0px;
+ }
+ 
+ .layout-flex{
+   justify-content:left;
+   width: 100%;
+   margin-left: 10%;
+   
+ }
+
+ .epi{
+  transform: translateY(0);
+  transition: transform 0.6s ease;
+
+}
+
+.manutencao{
+  transform: translateY(0);
+  transition: transform 0.6s ease;
+}
+.epi:hover{
+  transform: translateY(-20px);
+}
+
+.manutencao:hover{
+  transform: translateY(-20px);
+}
+
+.acidentes{
+  flex-direction: row;
+  width: 1000px;
+  margin: 70px auto;
+}
+
+.conteudo-acidentes{
+  flex-direction: row;
+}
+
+.conteudo-acidentes > img{
+  width: 45%;
+  border-radius: 0px;  
+}
+
+.oculto{
+  display: none;
+}
+
+.visivel{
+  display: block;
+}
+
+.txt-acidente{
+  gap: 30px;
+}
+
+.texto-acidentes{
+  margin: 0px 100px;
+}
+
+.saude{
+  flex-direction: row;
+  width: 1000px;
+  margin: 70px auto;  
+  }
+
+.areas-atuacao{
+  flex-direction: row;
+  width: 1250px;
+  margin: 70px auto;
+  gap: 70px;
+    
+  }
+
+.conteudo-curriculo{
+  justify-content: space-around;
+  align-items: center;
+  }
+
+.ft-curriculo{
+  width: 400px;
+  box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.384);
+}
+
+.txt-curriculo{
+  width: 50%;
+  margin-top: 20px;
+  font-size: 1.2em;
+}
+      
+ #valores{
+  font-size: 20px;
+  height: 400px;
+ }
+
+ #valores h2{
+  font-weight: 400;
+ }
+
+ #valores p {
+  font-weight: 300;
+  font-size: 0.8em;
+ }
+
+ .itens-valores{
+  display: flex;
+  justify-content: center;
+  margin-top:25px ;
+  gap: 100px;
+ }
+
+
+
+
+
+.sessao-footer{
+  gap: 40px;
+  justify-content: start;
+  flex-direction: row;
+}
+
+.sessao-footer > div{
+margin-top: 25px;
+margin-right: 60px;
+}
+
+.sessao-conquistas{
+  height: 200px;
+}
+
+.countainer-principal-counter{
+  display: flex;
+  justify-content: center;
+}
+
+.links-uteis > li{
+  font-size: 1.4em;
+  margin: 20px 0px;
+}
+
+
+
