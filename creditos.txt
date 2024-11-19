@@ -20,3 +20,18 @@ contrato
 
 banner2
 <a href="https://www.freepik.com/free-ai-image/greek-busts-temple_61131194.htm#fromView=search&page=1&position=30&uuid=b9a1edcf-ceb7-4a6c-9ab1-6559a01c9af3">Image by freepik</a>
+
+ícone direito trabalhador
+<a href="https://www.flaticon.com/free-icons/ethics" title="ethics icons">Ethics icons created by Afian Rochmah Afif - Flaticon</a>
+
+ícone empresa
+<a href="https://www.flaticon.com/free-icons/company" title="company icons">Company icons created by Freepik - Flaticon</a>
+
+ícone martelo
+<a href="https://www.flaticon.com/free-icons/law" title="law icons">Law icons created by Freepik - Flaticon</a>
+
+ícone extrajudicial
+<a href="https://www.flaticon.com/free-icons/law" title="law icons">Law icons created by Vectors Tank - Flaticon</a>
+
+ícone direito dos trabalhadores
+<a href="https://www.flaticon.com/free-icons/lawyer" title="lawyer icons">Lawyer icons created by juicy_fish - Flaticon</a>
