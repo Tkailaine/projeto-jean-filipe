@@ -460,19 +460,6 @@ main{
  
 }
 
-.acidentes{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 70px;
-}
-
-.titulo-acidentes{
-  font-family: var(--fonte-padrao);
-  text-align: center;
-  margin: 100px 50px 50px 50px;
-}  
 
 .animate {
   opacity: 0;
@@ -486,118 +473,6 @@ main{
   transform: translateY(0);
 }
 
-.conteudo-acidentes{
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.conteudo-acidentes > img{
-  width: 100%; 
-}
-
-.txt-acidente{
-  display: flex;
-  flex-direction: column;
-}
-
-.oculto{
-  display: inline;
-  margin-top: 40px;
-  margin-bottom: 0px;
-}
-
-.visivel{
-  display: none;
-}
-
-.texto-acidentes{
-  color: black;
-  font-size: 1.3em;
-  margin: 30px 50px 0px 50px;
-  font-weight: 300;
-  line-height: 1.5em;
-}
-
-.texto-acidentes strong{
-  color: var(--cor1);
-}
-
-.btn-direitos{
-  align-self: center;
-  margin-top: 30px;
-  color: white;
-  background-color: #800000;
-  width: 250px;
-  height: 50px;
-  border: none;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.233);
-}
-
-.tipo-acidente{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  color: white;
-  background-color: #800000;
-  width: 270px;
-  height: 350px;
-  border-radius: 15px;
-  margin: auto;
-}
-
-.tipo-acidente > img{
-  margin-top: 10px;
-  width: 80px;
-}
-
-.tipo-acidente > h1{
-  font-family: var(--fonte-padrao);
- width: 95%;
-}
-
-.tipo-acidente > p{
-  width: 85%;
-}
-
-.saude{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 10px;
-  margin-top: 70px;
-}
-
-.tipo-saude{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-  color: var(--cor1);
-  font-weight: 500;
-  background-image: linear-gradient(45deg,#d4d3d3, #f3f3f3);
-  width: 270px;
-  height: 350px;
-  border-radius: 15px;
-  margin: auto;
-
-}
-
-.tipo-saude > img{
-  margin-top: 10px;
-  width: 80px;
-}
-
-.tipo-saude > h1{
-  font-family: var(--fonte-padrao);
-  width: 95%;
-
-}
-
-.tipo-saude > p{
-  width: 85%;
-}
 
  .sessao-areas-atuacao{
   background-image: url(../imagens/banner2.jpg);    
@@ -634,7 +509,9 @@ main{
   width: 250px;
   margin: auto;
 }
-
+.tipo-area strong{
+  color: #05eeff;
+}
 .tipo-area h2{
   font-size: 1em;
 }
@@ -649,7 +526,7 @@ main{
 }
 
 .tipo-area > ul{
-  width: 90%
+  width: 100%
 }
 
 

@@ -66,26 +66,6 @@ font-size: 1.2em;
 
 }
 
-.titulo-acidentes{
-  font-size: 1.3em;
-}
-
-.texto-acidentes{
-  font-size: 0.9em;
-}
-
-.acidentes, .saude{
-  gap: 30px;
-  margin-top: 10px;
-}
-
-.tipo-acidente > p{
- font-size: 0.85em;
-}
-
-.tipo-saude > p{
-  font-size: 0.85em;
- }
 
 #valores {
  height: 750px;

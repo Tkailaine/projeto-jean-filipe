@@ -142,46 +142,10 @@ margin-right: 5%;
   transform: translateY(-20px);
 }
 
-.acidentes{
-  flex-direction: row;
-  width: 1000px;
-  margin: 70px auto;
-}
-
-.conteudo-acidentes{
-  flex-direction: row;
-}
-
-.conteudo-acidentes > img{
-  width: 45%;
-  border-radius: 0px;  
-}
-
-.oculto{
-  display: none;
-}
-
-.visivel{
-  display: block;
-}
-
-.txt-acidente{
-  gap: 30px;
-}
-
-.texto-acidentes{
-  margin: 0px 100px;
-}
-
-.saude{
-  flex-direction: row;
-  width: 1000px;
-  margin: 70px auto;  
-  }
 
 .areas-atuacao{
   flex-direction: row;
-  width: 1250px;
+  width: 1200px;
   margin: 70px auto;
   gap: 70px;
     

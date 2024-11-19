@@ -46,36 +46,15 @@
     }
   }
   
-.acidentes{
-flex-direction: row;
-}
 
-.conteudo-acidentes > img{
-margin-top: 50px;
-width: 100%;
-border-radius: 0px;
-}
-
-.oculto{
-display: inline;
-margin-top: 40px;
-margin-bottom: 0px;
-}
-
-.visivel{
-display: none;
-}
-
-.saude{
-flex-direction: row;
-}
 
 .areas-atuacao{
 flex-direction: row;
 }
 
 .tipo-area > ul{
-  width: 65%
+  text-align: center;
+
 }
 
 .conteudo-curriculo{

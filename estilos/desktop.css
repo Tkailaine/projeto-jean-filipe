@@ -107,57 +107,19 @@ header > nav > .itens{
   transform: translateY(-20px);
 }
 
-.acidentes{
-  flex-direction: row;
-  width: 1000px;
-  margin: 70px auto;
 
-}
 
-.conteudo-acidentes{
-  flex-direction: column;
-  gap: 50px;
-}
 
-.conteudo-acidentes > img{
-  margin-top: 50px;
-  width: 100%;
-  border-radius: 0px;
-  
-}
-
-.oculto{
-  display: inline;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-.visivel{
-  display: none;
-}
-
-.txt-acidente{
-  gap: 30px;
-}
-
-.texto-acidentes{
-  margin: 0px 100px;
-}
 
 .texto-deslizante {
   font-size: 1em;
   
 }
 
-.saude{
-flex-direction: row;
-width: 1000px;
-margin: 70px auto;
-}
 
 .areas-atuacao{
 flex-direction: row;
-width: 1000px;
+width: 950px;
 margin: 70px auto;
 }
 
