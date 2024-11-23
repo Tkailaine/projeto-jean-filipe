@@ -198,5 +198,128 @@ function updateTestimonial() {
 
 setInterval(updateTestimonial, 10000)
 
+//JS MINI BLOG
+document.addEventListener("DOMContentLoaded", () => {
+    const blogPosts = [
+        {
+            title: "Primeira Notícia",
+            date: "23/11/2024",
+            image: "https://via.placeholder.com/800x400",
+            summary: "Este é o resumo da primeira notícia. Clique em 'Ler mais' para expandir.",
+            content: "Aqui está o conteúdo completo da primeira notícia. Pode conter muito mais informações detalhadas que o resumo. ",
+            source: "Fonte: Portal de Notícias"
+        },
+        {
+            title: "Segunda Notícia",
+            date: "22/11/2024",
+            image: "https://via.placeholder.com/800x400",
+            summary: "Resumo da segunda notícia. Um conteúdo interessante está por vir!",
+            content: "Conteúdo completo da segunda notícia, descrevendo todos os detalhes relevantes e informações adicionais.",
+            source: "Fonte: Jornal Online"
+        },
+        {
+            title: "Terceira Notícia",
+            date: "21/11/2024",
+            image: "https://via.placeholder.com/800x400",
+            summary: "Terceira notícia: algo de importante aconteceu e você precisa saber.",
+            content: "Este é o conteúdo detalhado da terceira notícia. Informações valiosas para o leitor.",
+            source: "Fonte: Revista Digital"
+        },
+        {
+            title: "Quarta Notícia",
+            date: "20/11/2024",
+            image: "https://via.placeholder.com/800x400",
+            summary: "Resumo da quarta notícia. Clique para explorar mais.",
+            content: "Detalhes completos da quarta notícia para o público interessado.",
+            source: "Fonte: Portal da Informação"
+        },
+        {
+            title: "Quinta Notícia",
+            date: "19/11/2024",
+            image: "https://via.placeholder.com/800x400",
+            summary: "Uma breve introdução sobre a quinta notícia.",
+            content: "Conteúdo completo da quinta notícia. Aqui você encontra os detalhes e mais informações. ",
+            source: "Fonte: Blog de Notícias"
+        },
+        {
+            title: "Sexta Notícia",
+            date: "18/11/2024",
+            image: "https://via.placeholder.com/800x400",
+            summary: "Resumo da sexta notícia. Clique para mais.",
+            content: "Detalhes completos da sexta notícia, expandindo sobre o resumo.",
+            source: "Fonte: Agência de Notícias"
+        },
+        {
+            title: "Sétima Notícia",
+            date: "17/11/2024",
+            image: "https://via.placeholder.com/800x400",
+            summary: "Resumo da sétima notícia. Algo interessante aconteceu.",
+            content: "Aqui está o conteúdo completo da sétima notícia com todos os detalhes.",
+            source: "Fonte: Mundo Digital"
+        }
+    ];
 
+    const blogContainer = document.getElementById("blog-posts");
+    const loadMoreButton = document.getElementById("load-more");
+    const POSTS_PER_PAGE = 6; // Agora queremos mostrar 6 posts por vez
+    let isExpanded = false;
 
+    function renderPosts(limit = POSTS_PER_PAGE) {
+        blogContainer.innerHTML = ""; // Limpa as notícias para renderizar novamente
+        blogPosts.slice(0, limit).forEach(post => {
+            const postElement = document.createElement("div");
+            postElement.classList.add("blog-post");
+
+            postElement.innerHTML = `
+                <img src="${post.image}" alt="${post.title}">
+                <h3>${post.title}</h3>
+                <p class="date">${post.date}</p>
+                <p class="summary">${post.summary}</p>
+                <p class="content">${post.content}</p>
+                <p class="source">${post.source}</p> <!-- Fonte da notícia -->
+                <button>Ler mais</button>
+            `;
+
+            blogContainer.appendChild(postElement);
+        });
+
+        // Mostra ou esconde o botão "Ver mais notícias"
+        loadMoreButton.style.display = blogPosts.length > POSTS_PER_PAGE ? "block" : "none";
+
+        // Atualiza o texto do botão com base no estado
+        loadMoreButton.textContent = isExpanded ? "Exibir menos" : "Ver mais notícias";
+
+        // Mostra os posts renderizados
+        const postsToShow = blogContainer.querySelectorAll(".blog-post");
+        postsToShow.forEach(post => {
+            post.style.display = "block";
+        });
+    }
+
+    blogContainer.addEventListener("click", (event) => {
+        if (event.target.tagName === "BUTTON") {
+            const button = event.target;
+            const postElement = button.closest(".blog-post");
+            const content = postElement.querySelector(".content");
+
+            if (content.style.display === "block") {
+                content.style.display = "none";
+                button.textContent = "Ler mais";
+            } else {
+                content.style.display = "block";
+                button.textContent = "Ler menos";
+            }
+        }
+    });
+
+    loadMoreButton.addEventListener("click", () => {
+        isExpanded = !isExpanded; // Alterna entre expandido e colapsado
+        if (isExpanded) {
+            renderPosts(blogPosts.length); // Mostra todas as notícias
+        } else {
+            renderPosts(POSTS_PER_PAGE); // Mostra apenas as primeiras 6 notícias
+        }
+    });
+
+    renderPosts(); // Renderiza as primeiras 6 notícias ao carregar
+});
