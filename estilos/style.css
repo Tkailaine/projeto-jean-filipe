@@ -300,7 +300,7 @@ main{
     }
 }
 
-.advogada{
+.advogado{
     background-image: url(../imagens/jean.jpeg);
     background-size: cover;
     background-position: top;
@@ -313,20 +313,20 @@ main{
 }
 
 
-.seguranca{
+.direito-conteudo{
   padding-top: 50px;
   padding-bottom: 25px;
  
 }
 
-.seguranca h1{
+.direito-conteudo h1{
  font-family: var(--fonte-padrao);
   width: 80%;
   margin: auto;
   
 }
 
-.seguranca p{
+.direito-conteudo p{
   text-align: justify;
   margin-top: 10px;
   margin-bottom: 30px;
@@ -366,35 +366,9 @@ main{
   margin-bottom: 0px;
 }
 
-.norma{
-  background-image: url(../imagens/iso.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 30px;
-  height: 30px;
- 
-}
 
-.instalacoes{
-  background-image: url(../imagens/seguranca.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 30px;
-  height: 30px;
  
-}
-
-.protecao{
-  background-image: url(../imagens/epis.png);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 30px;
-  height: 30px;
- 
-}.img-destaques{
+.img-destaques{
   position: relative;
   width: 400px;
   height: 450px;
@@ -407,7 +381,7 @@ main{
   box-shadow: 2px 2px 2px 2px var(--cor2);
 }
 
-.epi{
+.funcionario{
   position: absolute;
   top: 35%;
   background-image: url(../imagens/trabalhador.jpg);
@@ -418,7 +392,7 @@ main{
 
 }
 
-.manutencao{
+.acordo{
   position: absolute;
   left: 30%;
   background-image: url(../imagens/contrato.jpg);

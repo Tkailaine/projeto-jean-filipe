@@ -90,21 +90,21 @@ header > nav > .itens{
   font-size: 0.6em; 
 }
 
-.epi{
+.funcionario{
   transform: translateY(0);
   transition: transform 0.6s ease;
 
 }
 
-.manutencao{
+.acordo{
   transform: translateY(0);
   transition: transform 0.6s ease;
 }
-.epi:hover{
+.funcionario:hover{
   transform: translateY(-20px);
 }
 
-.manutencao:hover{
+.acordo:hover{
   transform: translateY(-20px);
 }
 

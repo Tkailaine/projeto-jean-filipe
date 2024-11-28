@@ -75,7 +75,7 @@ margin-right: 5%;
   font-size: 1.2em;
  }
  
- .seguranca p{
+ .direito-conteudo p{
    font-size: 1.2em;
  }
  
@@ -125,21 +125,21 @@ margin-right: 5%;
    
  }
 
- .epi{
+ .funcionario{
   transform: translateY(0);
   transition: transform 0.6s ease;
 
 }
 
-.manutencao{
+.acordo{
   transform: translateY(0);
   transition: transform 0.6s ease;
 }
-.epi:hover{
+.funcionario:hover{
   transform: translateY(-20px);
 }
 
-.manutencao:hover{
+.acordo:hover{
   transform: translateY(-20px);
 }
 
