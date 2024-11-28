@@ -178,7 +178,7 @@ const testimonials = [
     "Recomendo o Dr. Jean por ser um advogado super competente no que faz, além disso, sua empatia com o cliente, dedicação e apoio foi o que mais me chamou a atenção. Ele atuou em um caso meu que fiquei desesperada e logo após que ele tomou à frente, soube que estava em boas mãos. Obrigada Jean! ",
   },
   {
-    name: 'Talita Ferreira',
+    name: 'Talita Freire',
     position: '',
     photo: '',
     text:
