@@ -198,75 +198,89 @@ function updateTestimonial() {
 
 setInterval(updateTestimonial, 10000)
 
+ 
+
 //JS MINI BLOG
 document.addEventListener("DOMContentLoaded", () => {
     const blogPosts = [
         {
-            title: "Primeira Notícia",
+            title: "Décimo terceiro adiantado: empresas têm até sexta-feira (29) para pagar a 1ª parcela",
+            date: "25/11/2024",
+            image: "../imagens/decimo.JPG",
+            summary: "As empresas têm até sexta-feira (29) para pagar a 1ª parcela do 13º salário, garantindo o direito dos trabalhadores.",
+            content: "As empresas têm até sexta-feira (29) para pagar a primeira parcela do 13º salário, conforme determina a lei. O prazo original é 30 de novembro, mas foi antecipado devido ao último dia útil. O valor corresponde a metade do salário bruto de novembro, sem descontos, enquanto a segunda parcela, com deduções de IR e INSS, será paga até 20 de dezembro.O 13º é garantido por lei aos trabalhadores CLT e pode ser proporcional ao tempo de serviço. Caso o prazo final coincida com domingos ou feriados, o pagamento deverá ser antecipado. Segundo o Dieese, o benefício deve injetar R$ 321,4 bilhões na economia este ano",
+            source: "Fonte: CNN Brasil"
+        },
+
+        {
+            title: "Justiça do Trabalho garante adicional de insalubridade a camareira de motel",
             date: "23/11/2024",
-            image: "https://via.placeholder.com/800x400",
-            summary: "Este é o resumo da primeira notícia. Clique em 'Ler mais' para expandir.",
-            content: "Aqui está o conteúdo completo da primeira notícia. Pode conter muito mais informações detalhadas que o resumo. ",
-            source: "Fonte: Portal de Notícias"
+            image: "../imagens/camareira.JPG",
+            summary: "Justiça do Trabalho garante adicional de insalubridade a camareira de motel. Saiba mais sobre a decisão!",
+            content: "A Justiça do Trabalho condenou um motel em Sobral (CE) a pagar à camareira o adicional de insalubridade em grau máximo, devido a riscos à saúde no ambiente de trabalho, como contato com resíduos biológicos e falta de EPIs adequados. Além disso, a empresa deverá pagar reflexos sobre 13º, férias, FGTS e outros encargos, após análise de perícia técnica.",
+            source: "Fonte: Consultor Jurídico"
+        },
+
+        {
+            title: "10 Estratégias para Evitar Processos Trabalhistas e Promover um Ambiente de Trabalho Saudável",
+            date: "03/08/2024",
+            image: "../imagens/equipe.JPG",
+            summary: "Descubra 10 dicas essenciais para evitar processos trabalhistas e criar um ambiente de trabalho mais saudável e produtivo.",
+            content: "Manter um negócio sem enfrentar processos trabalhistas exigem estratégias estratégicas, como políticas claras, compliance trabalhista, boas práticas de gestão de RH e treinamentos contínuos. Além disso, prevenir o assédio, promover uma comunicação aberta e investir em auditorias internacionais ajuda a reduzir riscos. Consultoria jurídica preventiva e um ambiente saudável também são fundamentais para evitar litígios e garantir o bem-estar dos colaboradores. Implementando essas ações, sua empresa estará mais protegida legalmente e promoverá um local de trabalho mais harmonioso.",
+            source: "Fonte: Migalhas de Peso"
+        },
+        
+        
+        {
+            title: " Demitida Durante Contrato de Experiência, Gestante Deve Receber Salários e Indenização por Estabilidade",
+            date: "10/08/2024",
+            image: "../imagens/gestante.JPG",
+            summary: "Gestante demitida durante o contrato de experiência tem direito a contratação, benefícios e indenização. Descubra os detalhes da decisão judicial!",
+            content: "A 5ª Turma do Tribunal Regional do Trabalho da 4ª Região (RS) determinou que uma gestante demitida durante o contrato de experiência receba a cláusula contratual correspondente ao período de estabilidade, indenização por danos morais de R$ 10 mil, além de 13º salário, férias, FGTS e multa de 40%. A empresa foi condenada por discriminar uma trabalhadora, que já estava ciente do risco de gestação, configurando violação dos direitos da gestante e da dignidade humana. A decisão foi unânime entre os desembargadores.",
+            source: "Fonte: Justiça do Trabalho"
         },
         {
-            title: "Segunda Notícia",
-            date: "22/11/2024",
-            image: "https://via.placeholder.com/800x400",
-            summary: "Resumo da segunda notícia. Um conteúdo interessante está por vir!",
-            content: "Conteúdo completo da segunda notícia, descrevendo todos os detalhes relevantes e informações adicionais.",
-            source: "Fonte: Jornal Online"
+            title: " Por que as Startups Precisam de um Programa de Compliance?",
+            date: "22/08/2024",
+            image: "../imagens/startup.JPG",
+            summary: "Saiba por que as startups devem adotar um programa de compliance desde o início para garantir ética, segurança e atrair investidores. Entenda os benefícios!",
+            content: "Para garantir a inovação e o crescimento sustentável, as startups devem adotar práticas de compliance, que garantam a conformidade com leis e padrões éticos. Isso envolve desde a segurança da informação até a prevenção à lavagem de dinheiro e corrupção. Um programa de compliance eficaz não apenas reduz riscos e protege a confiança, como também é essencial para atrair investimentos. Ao incorporar essas práticas, as startups constroem uma base sólida, demonstrando compromisso com a ética e a transparência, o que é crucial para seu sucesso a longo prazo.",
+            source: "Fonte: Exame."
         },
         {
-            title: "Terceira Notícia",
-            date: "21/11/2024",
-            image: "https://via.placeholder.com/800x400",
-            summary: "Terceira notícia: algo de importante aconteceu e você precisa saber.",
-            content: "Este é o conteúdo detalhado da terceira notícia. Informações valiosas para o leitor.",
-            source: "Fonte: Revista Digital"
+            title: "Juiz Declara Rescisão Indireta de Trabalhadora Endividada por Atrasos de Salários",
+            date: "29/05/2024",
+            image: "../imagens/salario.JPG",
+            summary: "Justiça permite rescisão indireta de contrato por atrasos salariais e inadimplência no FGTS, com indenização de R$ 5 mil.",
+            content: "A Justiça do acompanhado Trabalho a rescisão indireta do contrato de um trabalhador de uma instituição educacional de Caratinga, após repetidos atrasos salariais e inadimplência no FGTS. A empregada, que ficou individualizada e teve seu nome incluído no SPC, foi indenizada em R$ 5 mil por danos morais. O juiz entendeu que o descumprimento das obrigações trabalhistas, incluindo o pagamento tardio dos contratos, causou grave prejuízo moral à funcionária. A empresa recorreu, mas a decisão foi mantida pelo Tribunal Regional do Trabalho.",
+            source: "Fonte: Justiça do Trabalho"
         },
-        {
-            title: "Quarta Notícia",
-            date: "20/11/2024",
-            image: "https://via.placeholder.com/800x400",
-            summary: "Resumo da quarta notícia. Clique para explorar mais.",
-            content: "Detalhes completos da quarta notícia para o público interessado.",
-            source: "Fonte: Portal da Informação"
-        },
-        {
-            title: "Quinta Notícia",
-            date: "19/11/2024",
-            image: "https://via.placeholder.com/800x400",
-            summary: "Uma breve introdução sobre a quinta notícia.",
-            content: "Conteúdo completo da quinta notícia. Aqui você encontra os detalhes e mais informações. ",
-            source: "Fonte: Blog de Notícias"
-        },
-        {
-            title: "Sexta Notícia",
-            date: "18/11/2024",
-            image: "https://via.placeholder.com/800x400",
-            summary: "Resumo da sexta notícia. Clique para mais.",
-            content: "Detalhes completos da sexta notícia, expandindo sobre o resumo.",
-            source: "Fonte: Agência de Notícias"
-        },
-        {
-            title: "Sétima Notícia",
-            date: "17/11/2024",
-            image: "https://via.placeholder.com/800x400",
-            summary: "Resumo da sétima notícia. Algo interessante aconteceu.",
-            content: "Aqui está o conteúdo completo da sétima notícia com todos os detalhes.",
-            source: "Fonte: Mundo Digital"
-        }
+       
     ];
+
+    // Função para ordenar os posts pela data em ordem cronológica decrescente (mais recentes primeiro)
+    function sortPostsByDate(posts) {
+        return posts.sort((a, b) => {
+            const dateA = new Date(a.date.split("/").reverse().join("-"));
+            const dateB = new Date(b.date.split("/").reverse().join("-"));
+            return dateB - dateA; // Ordenação em ordem decrescente
+        });
+    }
+
+    // Ordenando os posts antes de renderizar
+    const sortedBlogPosts = sortPostsByDate(blogPosts);
 
     const blogContainer = document.getElementById("blog-posts");
     const loadMoreButton = document.getElementById("load-more");
-    const POSTS_PER_PAGE = 6; // Agora queremos mostrar 6 posts por vez
-    let isExpanded = false;
+    const showLessButton = document.getElementById("show-less");  // Botão Exibir Menos
+    const POSTS_PER_PAGE = 6;
+    const POSTS_INCREMENT = 3; // Incremento de posts ao clicar em "Ver mais"
+    let currentPostsCount = POSTS_PER_PAGE; // Contador de posts exibidos
 
-    function renderPosts(limit = POSTS_PER_PAGE) {
-        blogContainer.innerHTML = ""; // Limpa as notícias para renderizar novamente
-        blogPosts.slice(0, limit).forEach(post => {
+    // Função para renderizar os posts
+    function renderPosts() {
+        blogContainer.innerHTML = ""; // Limpa os posts
+        sortedBlogPosts.slice(0, currentPostsCount).forEach(post => {
             const postElement = document.createElement("div");
             postElement.classList.add("blog-post");
 
@@ -279,23 +293,37 @@ document.addEventListener("DOMContentLoaded", () => {
                 <p class="source">${post.source}</p> <!-- Fonte da notícia -->
                 <button>Ler mais</button>
             `;
-
             blogContainer.appendChild(postElement);
         });
 
-        // Mostra ou esconde o botão "Ver mais notícias"
-        loadMoreButton.style.display = blogPosts.length > POSTS_PER_PAGE ? "block" : "none";
+        // Mostrar ou esconder o botão "Ver mais notícias"
+        if (currentPostsCount < sortedBlogPosts.length) {
+            loadMoreButton.style.display = "block";
+        } else {
+            loadMoreButton.style.display = "none";
+        }
 
-        // Atualiza o texto do botão com base no estado
-        loadMoreButton.textContent = isExpanded ? "Exibir menos" : "Ver mais notícias";
-
-        // Mostra os posts renderizados
-        const postsToShow = blogContainer.querySelectorAll(".blog-post");
-        postsToShow.forEach(post => {
-            post.style.display = "block";
-        });
+        // Mostrar ou esconder o botão "Exibir menos"
+        if (currentPostsCount > POSTS_PER_PAGE) {
+            showLessButton.style.display = "block";
+        } else {
+            showLessButton.style.display = "none";
+        }
     }
 
+    // Ação para carregar mais posts
+    loadMoreButton.addEventListener("click", () => {
+        currentPostsCount += POSTS_INCREMENT; // Aumenta a quantidade de posts
+        renderPosts();
+    });
+
+    // Ação para exibir menos posts
+    showLessButton.addEventListener("click", () => {
+        currentPostsCount = POSTS_PER_PAGE; // Reseta para o número inicial de posts
+        renderPosts();
+    });
+
+    // Lógica para alternar entre mostrar mais ou menos conteúdo nos posts individuais
     blogContainer.addEventListener("click", (event) => {
         if (event.target.tagName === "BUTTON") {
             const button = event.target;
@@ -312,14 +340,5 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-    loadMoreButton.addEventListener("click", () => {
-        isExpanded = !isExpanded; // Alterna entre expandido e colapsado
-        if (isExpanded) {
-            renderPosts(blogPosts.length); // Mostra todas as notícias
-        } else {
-            renderPosts(POSTS_PER_PAGE); // Mostra apenas as primeiras 6 notícias
-        }
-    });
-
-    renderPosts(); // Renderiza as primeiras 6 notícias ao carregar
+    renderPosts(); // Renderiza os primeiros posts ao carregar a página
 });
