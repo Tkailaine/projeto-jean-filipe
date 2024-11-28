@@ -206,7 +206,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             title: "Décimo terceiro adiantado: empresas têm até sexta-feira (29) para pagar a 1ª parcela",
             date: "25/11/2024",
-            image: "../imagens/decimo.JPG",
+            image: "imagens/decimo.JPG",
             summary: "As empresas têm até sexta-feira (29) para pagar a 1ª parcela do 13º salário, garantindo o direito dos trabalhadores.",
             content: "As empresas têm até sexta-feira (29) para pagar a primeira parcela do 13º salário, conforme determina a lei. O prazo original é 30 de novembro, mas foi antecipado devido ao último dia útil. O valor corresponde a metade do salário bruto de novembro, sem descontos, enquanto a segunda parcela, com deduções de IR e INSS, será paga até 20 de dezembro.O 13º é garantido por lei aos trabalhadores CLT e pode ser proporcional ao tempo de serviço. Caso o prazo final coincida com domingos ou feriados, o pagamento deverá ser antecipado. Segundo o Dieese, o benefício deve injetar R$ 321,4 bilhões na economia este ano",
             source: "Fonte: CNN Brasil"
@@ -215,7 +215,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             title: "Justiça do Trabalho garante adicional de insalubridade a camareira de motel",
             date: "23/11/2024",
-            image: "../imagens/camareira.JPG",
+            image: "imagens/camareira.JPG",
             summary: "Justiça do Trabalho garante adicional de insalubridade a camareira de motel. Saiba mais sobre a decisão!",
             content: "A Justiça do Trabalho condenou um motel em Sobral (CE) a pagar à camareira o adicional de insalubridade em grau máximo, devido a riscos à saúde no ambiente de trabalho, como contato com resíduos biológicos e falta de EPIs adequados. Além disso, a empresa deverá pagar reflexos sobre 13º, férias, FGTS e outros encargos, após análise de perícia técnica.",
             source: "Fonte: Consultor Jurídico"
@@ -224,7 +224,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             title: "10 Estratégias para Evitar Processos Trabalhistas e Promover um Ambiente de Trabalho Saudável",
             date: "03/08/2024",
-            image: "../imagens/equipe.JPG",
+            image: "imagens/equipe.JPG",
             summary: "Descubra 10 dicas essenciais para evitar processos trabalhistas e criar um ambiente de trabalho mais saudável e produtivo.",
             content: "Manter um negócio sem enfrentar processos trabalhistas exigem estratégias estratégicas, como políticas claras, compliance trabalhista, boas práticas de gestão de RH e treinamentos contínuos. Além disso, prevenir o assédio, promover uma comunicação aberta e investir em auditorias internacionais ajuda a reduzir riscos. Consultoria jurídica preventiva e um ambiente saudável também são fundamentais para evitar litígios e garantir o bem-estar dos colaboradores. Implementando essas ações, sua empresa estará mais protegida legalmente e promoverá um local de trabalho mais harmonioso.",
             source: "Fonte: Migalhas de Peso"
@@ -234,7 +234,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             title: " Demitida Durante Contrato de Experiência, Gestante Deve Receber Salários e Indenização por Estabilidade",
             date: "10/08/2024",
-            image: "../imagens/gestante.JPG",
+            image: "imagens/gestante.JPG",
             summary: "Gestante demitida durante o contrato de experiência tem direito a contratação, benefícios e indenização. Descubra os detalhes da decisão judicial!",
             content: "A 5ª Turma do Tribunal Regional do Trabalho da 4ª Região (RS) determinou que uma gestante demitida durante o contrato de experiência receba a cláusula contratual correspondente ao período de estabilidade, indenização por danos morais de R$ 10 mil, além de 13º salário, férias, FGTS e multa de 40%. A empresa foi condenada por discriminar uma trabalhadora, que já estava ciente do risco de gestação, configurando violação dos direitos da gestante e da dignidade humana. A decisão foi unânime entre os desembargadores.",
             source: "Fonte: Justiça do Trabalho"
@@ -242,7 +242,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             title: " Por que as Startups Precisam de um Programa de Compliance?",
             date: "22/08/2024",
-            image: "../imagens/startup.JPG",
+            image: "imagens/startup.JPG",
             summary: "Saiba por que as startups devem adotar um programa de compliance desde o início para garantir ética, segurança e atrair investidores. Entenda os benefícios!",
             content: "Para garantir a inovação e o crescimento sustentável, as startups devem adotar práticas de compliance, que garantam a conformidade com leis e padrões éticos. Isso envolve desde a segurança da informação até a prevenção à lavagem de dinheiro e corrupção. Um programa de compliance eficaz não apenas reduz riscos e protege a confiança, como também é essencial para atrair investimentos. Ao incorporar essas práticas, as startups constroem uma base sólida, demonstrando compromisso com a ética e a transparência, o que é crucial para seu sucesso a longo prazo.",
             source: "Fonte: Exame."
@@ -250,7 +250,7 @@ document.addEventListener("DOMContentLoaded", () => {
         {
             title: "Juiz Declara Rescisão Indireta de Trabalhadora Endividada por Atrasos de Salários",
             date: "29/05/2024",
-            image: "../imagens/salario.JPG",
+            image: "imagens/salario.JPG",
             summary: "Justiça permite rescisão indireta de contrato por atrasos salariais e inadimplência no FGTS, com indenização de R$ 5 mil.",
             content: "A Justiça do acompanhado Trabalho a rescisão indireta do contrato de um trabalhador de uma instituição educacional de Caratinga, após repetidos atrasos salariais e inadimplência no FGTS. A empregada, que ficou individualizada e teve seu nome incluído no SPC, foi indenizada em R$ 5 mil por danos morais. O juiz entendeu que o descumprimento das obrigações trabalhistas, incluindo o pagamento tardio dos contratos, causou grave prejuízo moral à funcionária. A empresa recorreu, mas a decisão foi mantida pelo Tribunal Regional do Trabalho.",
             source: "Fonte: Justiça do Trabalho"
